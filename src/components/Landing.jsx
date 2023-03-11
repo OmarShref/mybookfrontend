@@ -10,10 +10,10 @@ const Landing = () => {
           <p className="relative min-w-[40%] text-xs text-white sm:text-base lg:text-2xl">
             <span className="text-xl text-sky-400 sm:text-2xl lg:text-4xl">
               Discover
-            </span>{" "}
+            </span>
             <br /> books full of content with our website.
           </p>
-          <button className="relative mt-4 w-full rounded-md bg-sky-700 py-2 text-xs text-slate-100 sm:text-base md:text-lg lg:mt-8 lg:text-xl xl:mt-10 xl:text-2xl">
+          <button className="relative mt-4 w-full rounded-md bg-sky-700 py-2 text-xs text-slate-50 transition active:scale-95 sm:text-base md:text-lg md:hover:bg-sky-600 lg:mt-8 lg:text-xl xl:mt-10 xl:text-2xl">
             Let's do it
           </button>
         </div>
