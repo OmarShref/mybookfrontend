@@ -134,6 +134,7 @@ const Books = () => {
               value={title}
               placeholder="title"
               onChange={(e) => setTitle(e.target.value)}
+              dir="auto"
               className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <label htmlFor="author" className="self-start text-xs text-sky-800">
@@ -144,6 +145,7 @@ const Books = () => {
               type="text"
               value={author}
               onChange={(e) => setAuthor(e.target.value)}
+              dir="auto"
               placeholder="author"
               className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
@@ -156,6 +158,7 @@ const Books = () => {
               value={genre}
               placeholder="genre"
               onChange={(e) => setGenre(e.target.value)}
+              dir="auto"
               className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <label htmlFor="cover" className="self-start text-xs text-sky-800">
@@ -167,6 +170,7 @@ const Books = () => {
               value={cover}
               placeholder="cover"
               onChange={(e) => setCover(e.target.value)}
+              dir="auto"
               className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <button
@@ -195,6 +199,7 @@ const Books = () => {
               setFilter(e.target.value);
             }}
             placeholder="Search..."
+            dir="auto"
             className="w-40 rounded-md border-2 border-slate-200  bg-slate-50/80 px-4 py-2 text-slate-900 focus-visible:border-sky-900 focus-visible:outline-none sm:w-60 lg:w-96"
           />
         </div>
