@@ -13,9 +13,11 @@ const Landing = () => {
             </span>
             <br /> books full of content with our website.
           </p>
-          <button className="relative mt-4 w-full rounded-md bg-sky-700 py-2 text-xs text-slate-50 transition active:scale-95 sm:text-base md:text-lg md:hover:bg-sky-600 lg:mt-8 lg:text-xl xl:mt-10 xl:text-2xl">
-            Let's do it
-          </button>
+          <a href="#books-list">
+            <button className="relative mt-4 w-full rounded-md bg-sky-700 py-2 text-xs text-slate-50 transition active:scale-95 sm:text-base md:text-lg md:hover:bg-sky-600 lg:mt-8 lg:text-xl xl:mt-10 xl:text-2xl">
+              Let's do it
+            </button>
+          </a>
         </div>
         <img src={landingImage} alt="man reading a book" className="relative" />
       </div>

@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-t from-purple-500 to-rose-200 p-4 font-poppins md:p-6 lg:p-8">
+      <div className="min-h-[100vh] bg-gradient-to-t from-purple-500 to-rose-200 p-4 font-poppins md:p-6 lg:p-8">
         <div className="mx-auto max-w-7xl rounded-2xl bg-white px-4 py-4 shadow-lg sm:px-8">
           <Nav />
           <Landing />
