@@ -135,7 +135,7 @@ const Books = () => {
               placeholder="title"
               onChange={(e) => setTitle(e.target.value)}
               dir="auto"
-              className="max-w-xs rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
+              className="max-w-[222px] rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <label htmlFor="author" className="self-start text-xs text-sky-800">
               author
