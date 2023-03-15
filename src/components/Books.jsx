@@ -135,7 +135,7 @@ const Books = () => {
               placeholder="title"
               onChange={(e) => setTitle(e.target.value)}
               dir="auto"
-              className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
+              className="max-w-xs rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <label htmlFor="author" className="self-start text-xs text-sky-800">
               author
@@ -147,7 +147,7 @@ const Books = () => {
               onChange={(e) => setAuthor(e.target.value)}
               dir="auto"
               placeholder="author"
-              className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
+              className="max-w-xs rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <label htmlFor="genre" className="self-start text-xs text-sky-800">
               genre
@@ -159,7 +159,7 @@ const Books = () => {
               placeholder="genre"
               onChange={(e) => setGenre(e.target.value)}
               dir="auto"
-              className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
+              className="max-w-xs rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <label htmlFor="cover" className="self-start text-xs text-sky-800">
               cover
@@ -171,7 +171,7 @@ const Books = () => {
               placeholder="cover"
               onChange={(e) => setCover(e.target.value)}
               dir="auto"
-              className="rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
+              className="max-w-xs rounded-md border-2 border-slate-200  px-2 py-1 focus-visible:outline-sky-700"
             />
             <button
               onClick={() => {
