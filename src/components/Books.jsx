@@ -110,7 +110,7 @@ const Books = () => {
   return (
     <>
       {showAddBookModal && (
-        <div className="fixed top-0 left-0 z-20 grid h-screen w-screen place-items-center bg-black/40">
+        <div className="fixed top-0 left-0 z-20 grid h-screen w-screen place-items-center bg-black/40 p-4">
           <div className="relative flex flex-col items-center justify-center rounded-xl bg-white p-8">
             <i
               onClick={() => {
